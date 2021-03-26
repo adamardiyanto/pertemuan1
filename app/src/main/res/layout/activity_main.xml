@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/cardview_dark_background">
+
+    <ImageView
+        android:id="@+id/IV1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/facebook"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:id="@+id/TV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook"
+        android:layout_toRightOf="@id/IV1"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="35dp"
+        android:layout_marginVertical="70dp"
+        android:textColor="@color/cardview_light_background"
+        android:fontFamily="serif-monospace"
+
+        />
+
+    <TextView
+        android:id="@+id/TV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook, Inc. adalah sebuah layanan jejaring sosial berkantor pusat di Menlo Park, California, Amerika Serikat yang diluncurkan pada bulan Februari 2004. Per September 2012, Facebook memiliki lebih dari satu miliar pengguna aktif, lebih dari separuhnya menggunakan telepon genggam."
+        android:layout_marginHorizontal="20dp"
+        android:layout_below="@id/IV1"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:fontFamily="casual"
+        />
+</RelativeLayout>
